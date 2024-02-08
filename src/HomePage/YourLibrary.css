@@ -1,0 +1,68 @@
+/* YourLibrary.css */
+
+.artist-container {
+  border: 1px solid rgb(35, 33, 33);
+  height: 100%;
+  color: white;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  overflow: scroll;
+  padding-left: 300px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.word1 {
+  padding-top: 70px;
+  padding-left: 50px;
+  color: white;
+  font-family: serif;
+  border-radius: 4px; /* Add rounded corners */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.artist-item {
+  background-color: #1d1d1d;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.artist-item-info {
+  padding: 20px;
+}
+
+.artist-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.artist-name {
+  color: white;
+  font-family: serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.artist-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-type {
+  color: white;
+  font-size: 25px;
+}
+
+.artist-id,
+.artist-popularity,
+.artist-followers,
+.artist-genres {
+  font-size: 14px;
+}
+
+.artist-popularity br,
+.artist-followers br {
+  display: none; /* Hide the <br /> element */
+}

@@ -1,0 +1,33 @@
+.player_body {
+  display: flex;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Adjusted to distribute items */
+  align-items: center; /* Center items vertically */
+  background-color: #000;
+  padding: 15px;
+  position: fixed;
+}
+
+.navbar_objects {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.login-button {
+  padding: 10px;
+  margin-left: 1350px;
+  color: #fff;
+  background-color: #1db954;
+  cursor: pointer;
+  border: 3px solid rgba(222, 208, 208, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(222, 208, 208, 0.5);
+}
+
+.login-button:hover {
+  background-color: #235a39;
+}

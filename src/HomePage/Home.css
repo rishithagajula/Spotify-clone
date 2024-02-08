@@ -1,0 +1,48 @@
+.album-container {
+  border: 1px solid rgb(35, 33, 33);
+  padding-left: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgb(98, 37, 48), rgba(0, 0, 0, 1));
+  overflow: scroll;
+}
+.word {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: white;
+  font-family: serif;
+  border-radius: 4px; /* Add rounded corners */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.album-item {
+  width: 15%;
+  margin: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.album-image img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid rgba(222, 208, 208, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(222, 208, 208, 0.5);
+}
+.album-content {
+  text-align: center;
+}
+.album-name {
+  font-weight: bold;
+}
+.album-name2 {
+  color: white;
+}
