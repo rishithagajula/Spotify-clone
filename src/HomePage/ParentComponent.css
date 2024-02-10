@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  background: linear-gradient(rgb(98, 37, 48), rgba(0, 0, 0, 1));
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b040a;
   padding: 20px;
   color: white;
 }

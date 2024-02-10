@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Player from "./HomePage/Player";
 import ParentComponent from "./HomePage/ParentComponent";
 import Home from "./HomePage/Home";
-import YourLibrary from "./HomePage/YourLibrary";
+import Playlist from "./HomePage/Playlist";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/search" element={<ParentComponent />} />
-        <Route path="/yourLibrary" element={<YourLibrary/>} />
+        <Route path="/yourLibrary" element={<Playlist/>} />
       </Routes>
     </Router>
   );

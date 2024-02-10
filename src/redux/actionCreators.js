@@ -14,6 +14,13 @@ export const displayAlbumContent = (data) => {
   };
 };
 
+export const setPlaylist = (data) => {
+  return {
+    type: ACTIONS.SET_PLAYLIST,
+    payload: data,
+  };
+};
+
 export const setArtist = (data) => {
   return {
     type: ACTIONS.SET_ARTIST,

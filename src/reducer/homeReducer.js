@@ -4,6 +4,8 @@ const initialState = {
   homeData: [],
   displayedAlbum: null,
   artist: null,
+  playlist: null, 
+  searchQuery: null, 
 };
 
 const homeReducer = (state = initialState, action) => {
@@ -13,17 +15,22 @@ const homeReducer = (state = initialState, action) => {
         ...state,
         homeData: action.payload,
       };
-      case ACTIONS.DISPLAY_ALBUM_CONTENT:
+    case ACTIONS.DISPLAY_ALBUM_CONTENT:
       return {
         ...state,
         displayedAlbum: action.payload,
-      }
+      };
+    case ACTIONS.SET_PLAYLIST:
+      return {
+        ...state,
+        playlist: action.payload,
+      };
     case ACTIONS.SET_ARTIST:
       return {
         ...state,
         artist: action.payload,
       };
-      case ACTIONS.SET_ARTIST:
+    case ACTIONS.SET_SEARCH_QUERY:
       return {
         ...state,
         searchQuery: action.payload,
