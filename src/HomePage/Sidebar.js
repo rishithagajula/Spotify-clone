@@ -2,9 +2,10 @@ import React from "react";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
 import SidebarOption from "./SidebarOption";
-import HomeIcon from "@mui/icons-material/Home";
+import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from "@mui/icons-material/Search";
 import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
+
 
 function Sidebar() {
   return (

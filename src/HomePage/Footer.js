@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 import ShuffleIcon from "@mui/icons-material/Shuffle";
@@ -9,6 +8,7 @@ import Slider from "@mui/material/Slider";
 import Grid from "@mui/material/Grid";
 import VolumeDownIcon from "@mui/icons-material/VolumeDown";
 import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 function Footer() {
   return (
