@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import "./ParentComponent.css";
 import Search from "./Search";
-import { useDispatch, useSelector } from "react-redux";
-import { setSearchQuery } from "../redux/actionCreators";
 
 const ParentComponent = () => {
-  const dispatch = useDispatch();
-  const loading = useSelector((state) => state.Home.loading);
   const [searchQueryValue, setSearchQueryValue] = useState("");
   const [albums, setAlbums] = useState([]);
 

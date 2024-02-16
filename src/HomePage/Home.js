@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-import { connect,useDispatch, useSelector } from "react-redux";
+import { connect, useDispatch, useSelector } from "react-redux";
 import { setHomeData, displayAlbumContent } from "../redux/actionCreators";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 
     fetch(apiUrl, {
       headers: {
-        "X-RapidAPI-Key": "04c85b8809msh36dc53016ce527dp1e3117jsn3603161625f2",
+        "X-RapidAPI-Key": "9909dd9333msh6c9b83114dd3a1bp1b067bjsn15ad6b731df4",
         "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
       },
     })
@@ -42,10 +42,18 @@ const Home = () => {
         <div className="album">
           {homeData && homeData.length > 0 ? (
             homeData.map((album, index) => (
-              <div key={index} className="album-item" onClick={() => handleClick(album)}>
+              <div
+                key={index}
+                className="album-item"
+                onClick={() => handleClick(album)}
+              >
                 <div className="album-image">
                   {album.imageUri && (
-                    <a href={album.imageUri} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={album.imageUri}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img
                         className="album-img"
                         src={album.imageUri}
