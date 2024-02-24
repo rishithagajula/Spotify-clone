@@ -46,3 +46,30 @@
 .album-name2 {
   color: white;
 }
+@media (max-width: 767px) {
+  .album-container {
+    padding: 20px; /* Adjust padding */
+  }
+
+  .word {
+    padding-left: 20px; /* Adjust padding */
+  }
+
+  .album-item {
+    width: 45%; /* Adjust width for better fit */
+  }
+}
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .album-item {
+    width: 30%; /* Adjust width for better fit */
+  }
+}
+
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  .album-item {
+    width: 20%; /* Adjust width for better fit */
+  }
+}

@@ -35,3 +35,33 @@
 .search-bar button:hover {
   background-color: #45a049;
 }
+@media (max-width: 767px) {
+  .search-bar {
+    padding-left: 20px; /* Adjust padding for better fit */
+    padding-top: 30px; /* Adjust padding for better fit */
+  }
+
+  .search-bar input[type="text"] {
+    width: 70%; /* Adjust input width for better fit */
+  }
+
+  .search-bar button {
+    width: 25%; /* Adjust button width for better fit */
+  }
+}
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .search-bar {
+    padding-left: 50px; /* Adjust padding for better fit */
+    padding-top: 50px; /* Adjust padding for better fit */
+  }
+}
+
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  .search-bar {
+    padding-left: 190px; /* Restore original padding */
+    padding-top: 70px; /* Restore original padding */
+  }
+}
