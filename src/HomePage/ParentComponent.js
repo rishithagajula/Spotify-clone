@@ -31,7 +31,7 @@ const ParentComponent = () => {
           <div className="search-bar">
             <input
               type="text"
-              placeholder="Search artist..."
+              placeholder="Search for Artists, Songs"
               value={searchQueryValue}
               onChange={(e) => setSearchQueryValue(e.target.value)}
             />
