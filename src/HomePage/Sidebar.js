@@ -27,6 +27,17 @@ function Sidebar() {
       <br />
       <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
+      <div className="sidebar__songs">
+      <SidebarOption title="My Top Favourite songs" />
+      <SidebarOption title="Perfect Peace" />
+      <SidebarOption title="Hey There Delilah" />
+      <SidebarOption title="Issa Vibe" />
+      <SidebarOption title="Take me Away" />
+      <SidebarOption title="Under The Influence" />
+      <SidebarOption title="THE GROOVE (STUDIO)" />
+      <SidebarOption title="Like This" />
+      <SidebarOption title="Trippy B" />
+      </div>
       
     </div>
   );
