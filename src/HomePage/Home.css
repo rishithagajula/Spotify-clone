@@ -60,16 +60,15 @@
   }
 }
 
-/* Media query for screens between 768px and 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .album-item {
-    width: 30%; /* Adjust width for better fit */
+    width: 40%; 
   }
 }
 
-/* Media query for screens larger than 992px */
+
 @media (min-width: 992px) {
   .album-item {
-    width: 20%; /* Adjust width for better fit */
+    width: 20%; 
   }
 }

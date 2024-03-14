@@ -1,20 +1,16 @@
-
 .sidebar {
   border: 1px solid black;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  z-index: 100; /* Ensure sidebar is above other content */
+  flex: 0.2;
   color: white;
   padding: 10px;
-  width: 70%; /* Adjust sidebar width for better fit on phones */
-  max-width: 250px; /* Limit maximum width for larger screens */
+  min-width: 230px;
   background-color: black;
-  overflow-y: auto; /* Add scrollbar if content overflows */
+  overflow-y: auto; 
 }
-
-/* Adjust other styles as needed */
 
 
 .sidebar__option {
@@ -44,29 +40,25 @@
   font-family: serif;
 }
 
-/* Media query for screens smaller than 768px */
 @media (max-width: 767px) {
   .sidebar {
-    flex: 0.3; /* Adjust sidebar width for better fit */
+    flex: 0.1; 
   }
 
   .sidebar__title {
-    font-size: 10px; /* Adjust font size for better fit */
+    font-size: 8px; 
   }
 
   .sidebar__songs {
-    font-size: 14px; /* Adjust font size for better fit */
+    font-size: 14px; 
   }
 }
 
-/* Media query for screens between 768px and 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
-    flex: 0.25; /* Adjust sidebar width for better fit */
+    flex: 0.25; 
   }
 }
-
-/* Media query for screens larger than 992px */
 @media (min-width: 992px) {
-  /* Add your styles here if needed */
+
 }

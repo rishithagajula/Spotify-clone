@@ -45,17 +45,17 @@
     align-items: center;
     justify-content: space-around;
 }
-/* Media query for screens smaller than 768px */
+
 @media (max-width: 767px) {
     .footer {
-      font-size: 8px; /* Decrease font size */
+      font-size: 8px; 
     }
     
     .footer__left {
-      width: 200px; /* Reduce width */
+      width: 200px; 
     }
     
     .footer__center {
-      padding: 0 10px; /* Reduce padding */
+      padding: 0 10px; 
     }
   }

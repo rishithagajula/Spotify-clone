@@ -46,22 +46,22 @@
   }
 
   .search-bar button {
-    width: 25%; /* Adjust button width for better fit */
+    width: 25%; 
   }
 }
 
-/* Media query for screens between 768px and 991px */
+
 @media (min-width: 768px) and (max-width: 991px) {
   .search-bar {
-    padding-left: 50px; /* Adjust padding for better fit */
-    padding-top: 50px; /* Adjust padding for better fit */
+    padding-left: 50px; 
+    padding-top: 50px; 
   }
 }
 
-/* Media query for screens larger than 992px */
+
 @media (min-width: 992px) {
   .search-bar {
-    padding-left: 190px; /* Restore original padding */
-    padding-top: 70px; /* Restore original padding */
+    padding-left: 190px;
+    padding-top: 70px; 
   }
 }
