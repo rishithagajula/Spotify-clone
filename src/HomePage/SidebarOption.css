@@ -23,14 +23,14 @@
 
 @media (max-width: 767px) {
     .sidebarOption > p {
-      font-size: 12px; 
+      font-size: 10px; 
     }
   }
   
   
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebarOption > p {
-      font-size: 13px; 
+      font-size: 10px; 
     }
   }
   

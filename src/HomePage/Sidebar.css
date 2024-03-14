@@ -40,13 +40,15 @@
   font-family: serif;
 }
 
+/* Media query for screens smaller than 768px */
 @media (max-width: 767px) {
   .sidebar {
-    flex: 0.1; 
+    flex: 0.2; 
+    width: 60px;
   }
 
   .sidebar__title {
-    font-size: 8px; 
+    font-size: 6px; 
   }
 
   .sidebar__songs {
@@ -54,11 +56,14 @@
   }
 }
 
+/* Media query for screens between 768px and 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
-    flex: 0.25; 
+    flex: 0.25; /* Adjust sidebar width for better fit */
   }
 }
-@media (min-width: 992px) {
 
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  /* Add your styles here if needed */
 }
